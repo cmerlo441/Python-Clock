@@ -25,5 +25,5 @@ A file that runs when XDG starts up -- as long as you've copied it into `/etc/xd
 
 ### Fonts
 This code uses:
-* Audiowide (https://fonts.google.com/specimen/Audiowide?query=audiowide) for the time and weather
-* Rubik for the date
+* Audiowide (https://fonts.google.com/specimen/Audiowide) for the time and weather
+* Rubik (https://fonts.google.com/specimen/Rubik) for the date
