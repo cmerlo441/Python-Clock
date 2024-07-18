@@ -2,6 +2,9 @@
 
 This program makes a nice digital clock with weather data appear on your Raspberry Pi's monitor.  I wrote this in particular to use with the Raspberry Pi 7" Touch Display (https://www.raspberrypi.com/products/raspberry-pi-touch-display/).
 
+## Screenshot
+![Clock screenshot](https://chrismerlo.net/clock.png "Clock screenshot")
+
 ## Code Components
 
 ### `clock.py`
