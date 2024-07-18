@@ -1,0 +1,2 @@
+4,9,14,19,24,29,34,39,44,49,54,59 * * * * curl -s -o /home/clock/python-clock/weather.json "https://api.openweathermap.org/data/3.0/onecall?lat=<lat>&lon=<lon>&units=imperial&appid=<apikey>"
+*/5 * * * * python3 /home/clock/python-clock/weather.py >> /home/clock/python-clock/weather.log 2> /dev/null
