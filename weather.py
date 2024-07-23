@@ -34,15 +34,15 @@ try:
     with open(home + '/python-clock/weather.json', 'r') as file:
         data = json.load(file)
 
-        icon = data['weather'][0]['icon']
+        icon = data['current']['weather'][0]['icon']
         filename = icon + "@2x.png"
         url = "http://openweathermap.org/img/wn/" + filename
 
         ###
 
-        temp = round(data['main']['temp'])
-        condition = data['weather'][0]['description']
-        feel = round(data['main']['feels_like'])
+        temp = round(data['current']['temp'])
+        condition = data['current']['weather'][0]['description']
+        feel = round(data['current']['feels_like'])
 
         # weather_string = '%i%s (%i)%s %s\n' % ( temp, degree_sign, feel, degree_sign, condition.title())
         weather_string = '%i%s (Feels like %i%s)\n%s\n' % (temp, degree_sign, feel, degree_sign, condition)
